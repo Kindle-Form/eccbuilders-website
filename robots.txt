@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ecc-website-eccbuilders-website.umoqsr.easypanel.host/sitemap.xml
