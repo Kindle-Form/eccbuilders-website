@@ -1,6 +1,6 @@
 # Easypanel proxy redirects
 
-The current Easypanel service is a static nginx site. Redirect rules in the Easypanel domain settings run before traffic hits the app. Add one permanent rule per row. The same map is in `nginx.conf` for the optional Dockerfile.
+Add these in the Easypanel domain **Redirects** panel (they run at the proxy, before the static app). One permanent rule per row after you have verified the target.
 
 Test as temporary first if you want to avoid a cached mistake, then switch to permanent (301).
 
@@ -14,3 +14,5 @@ Test as temporary first if you want to avoid a cached mistake, then switch to pe
 | `^/houses-of-worship/?$` | `https://ecc-website-eccbuilders-website.umoqsr.easypanel.host/services/houses-of-worship/` |
 | `^/testimonials/?$` | `https://ecc-website-eccbuilders-website.umoqsr.easypanel.host/reviews/` |
 | `^/contact-us/?$` | `https://ecc-website-eccbuilders-website.umoqsr.easypanel.host/contact/` |
+
+Replace the host in **Replacement** with your production domain when it is live.
