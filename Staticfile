@@ -1,0 +1,4 @@
+# Nixpacks staticfile provider. Root stays the repository so /about/index.html
+# is served at /about/. Custom 404 when that provider is the one running nginx.
+status_code:
+  404: /404.html

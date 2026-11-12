@@ -1,0 +1,11 @@
+.git
+.gitignore
+scripts
+README.md
+deploy
+Dockerfile
+nginx.conf
+docker-entrypoint.ecc.sh
+.dockerignore
+Staticfile
+**/.DS_Store
